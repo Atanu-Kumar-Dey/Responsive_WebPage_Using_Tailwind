@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,29 @@
     <title>Responsive WebPage by Tailwind</title>
     <link rel="stylesheet" href="/input.css">
 </head>
+
 <body>
-    <div class="bg-black">Ok google</div>
+    <!-- Navber -->
+    <nav class="relative container mx-auto p-6">
+        <!-- Flex container -->
+        <div class="flex item-center justify-between">
+            <!-- Logo -->
+            <div class="px-2">
+                <img src="Images/PicsArt_08-14-12.25.33-removebg-preview.png" alt="logo" class="w-28">
+            </div>
+            <!-- Menu Item -->
+            <div class="hidden md:flex space-x-6">
+                <a href="#" class="hover:text-darkGrayishBlue">Home</a>
+                <a href="#" class="hover:text-darkGrayishBlue">Community</a>
+                <a href="#" class="hover:text-darkGrayishBlue">Projects</a>
+                <a href="#" class="hover:text-darkGrayishBlue">Contacts</a>
+            </div>
+            <!-- Button -->
+            <a href="" class="p-3 text-white bg-red-600 rounded-full">
+                Get Started
+            </a>
+        </div>
+    </nav>
 </body>
+
 </html>
