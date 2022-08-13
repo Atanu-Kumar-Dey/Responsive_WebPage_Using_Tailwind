@@ -1,0 +1,26 @@
+{
+  "name": "responsive_webpage_using_tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Atanu-Kumar-Dey/Responsive_WebPage_Using_Tailwind.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Atanu-Kumar-Dey/Responsive_WebPage_Using_Tailwind/issues"
+  },
+  "homepage": "https://github.com/Atanu-Kumar-Dey/Responsive_WebPage_Using_Tailwind#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.8",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8",
+    "vite": "^3.0.7"
+  }
+}
