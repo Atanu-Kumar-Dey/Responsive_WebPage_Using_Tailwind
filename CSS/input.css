@@ -10,6 +10,9 @@
   transition: all 0.25s;
   position: relative;
 }
+.fa-brands:hover {
+  color: hsl(12, 88%, 59%);
+}
 
 .hamburger-top,
 .hamburger-middle,
